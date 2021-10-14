@@ -34,7 +34,7 @@ const MyText = ({text}) => {
         style={[
           styles.button,
           {
-            backgroundColor: copied ? '#F0FFF0' : 'lightgrey',
+            backgroundColor: copied ? '#F0FFF0' : '#F5F5F5',
             borderColor: copied ? 'green' : 'grey',
           },
         ]}

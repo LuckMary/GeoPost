@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		16D7506D387A78F66ED37FEF /* libPods-GeoPost-GeoPostTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0693394452DAC4C74933E03 /* libPods-GeoPost-GeoPostTests.a */; };
+		2E05B42CD0AB4D40611A1C5C /* libPods-GeoPost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 641C8FFE9BEE25607F3B1460 /* libPods-GeoPost.a */; };
+		50573BD5C70D44C210C03B6D /* libPods-GeoPost-GeoPostTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF4BECE728F92EB043C75F4 /* libPods-GeoPost-GeoPostTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E258C2EF05EFA06DF15584A4 /* libPods-GeoPost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD6FC5AE315B7CD6E0083B3 /* libPods-GeoPost.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,20 @@
 		00E356EE1AD99517003FC87E /* GeoPostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoPostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* GeoPostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoPostTests.m; sourceTree = "<group>"; };
+		0CF4BECE728F92EB043C75F4 /* libPods-GeoPost-GeoPostTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GeoPost-GeoPostTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* GeoPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GeoPost/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GeoPost/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GeoPost/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GeoPost/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GeoPost/main.m; sourceTree = "<group>"; };
-		28B90ED894F6B3B6FE850072 /* Pods-GeoPost-GeoPostTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPost-GeoPostTests.debug.xcconfig"; path = "Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests.debug.xcconfig"; sourceTree = "<group>"; };
-		53CEC107D7E9B2BEE2DF7FDB /* Pods-GeoPost-GeoPostTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPost-GeoPostTests.release.xcconfig"; path = "Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests.release.xcconfig"; sourceTree = "<group>"; };
-		6F71F3527BD3D2B4925162C3 /* Pods-GeoPost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPost.release.xcconfig"; path = "Target Support Files/Pods-GeoPost/Pods-GeoPost.release.xcconfig"; sourceTree = "<group>"; };
+		3C7AB2BF0AAEE7CE89D7332F /* Pods-GeoPost-GeoPostTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPost-GeoPostTests.release.xcconfig"; path = "Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests.release.xcconfig"; sourceTree = "<group>"; };
+		4ACCD0CF3EF595CACECA832D /* Pods-GeoPost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPost.release.xcconfig"; path = "Target Support Files/Pods-GeoPost/Pods-GeoPost.release.xcconfig"; sourceTree = "<group>"; };
+		641C8FFE9BEE25607F3B1460 /* libPods-GeoPost.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GeoPost.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70425BB827A638600B9ED480 /* Pods-GeoPost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPost.debug.xcconfig"; path = "Target Support Files/Pods-GeoPost/Pods-GeoPost.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GeoPost/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8CD6FC5AE315B7CD6E0083B3 /* libPods-GeoPost.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GeoPost.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E118D94976348C311A08AF0D /* Pods-GeoPost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPost.debug.xcconfig"; path = "Target Support Files/Pods-GeoPost/Pods-GeoPost.debug.xcconfig"; sourceTree = "<group>"; };
+		90E997418B9A7DF44ACABA36 /* Pods-GeoPost-GeoPostTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPost-GeoPostTests.debug.xcconfig"; path = "Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F0693394452DAC4C74933E03 /* libPods-GeoPost-GeoPostTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GeoPost-GeoPostTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D7506D387A78F66ED37FEF /* libPods-GeoPost-GeoPostTests.a in Frameworks */,
+				50573BD5C70D44C210C03B6D /* libPods-GeoPost-GeoPostTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E258C2EF05EFA06DF15584A4 /* libPods-GeoPost.a in Frameworks */,
+				2E05B42CD0AB4D40611A1C5C /* libPods-GeoPost.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				8CD6FC5AE315B7CD6E0083B3 /* libPods-GeoPost.a */,
-				F0693394452DAC4C74933E03 /* libPods-GeoPost-GeoPostTests.a */,
+				641C8FFE9BEE25607F3B1460 /* libPods-GeoPost.a */,
+				0CF4BECE728F92EB043C75F4 /* libPods-GeoPost-GeoPostTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,7 +121,7 @@
 				00E356EF1AD99517003FC87E /* GeoPostTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				9C142FBECCDEE15DC2F1BD53 /* Pods */,
+				D5C7F64BBDF6648891783967 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,13 +137,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C142FBECCDEE15DC2F1BD53 /* Pods */ = {
+		D5C7F64BBDF6648891783967 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E118D94976348C311A08AF0D /* Pods-GeoPost.debug.xcconfig */,
-				6F71F3527BD3D2B4925162C3 /* Pods-GeoPost.release.xcconfig */,
-				28B90ED894F6B3B6FE850072 /* Pods-GeoPost-GeoPostTests.debug.xcconfig */,
-				53CEC107D7E9B2BEE2DF7FDB /* Pods-GeoPost-GeoPostTests.release.xcconfig */,
+				70425BB827A638600B9ED480 /* Pods-GeoPost.debug.xcconfig */,
+				4ACCD0CF3EF595CACECA832D /* Pods-GeoPost.release.xcconfig */,
+				90E997418B9A7DF44ACABA36 /* Pods-GeoPost-GeoPostTests.debug.xcconfig */,
+				3C7AB2BF0AAEE7CE89D7332F /* Pods-GeoPost-GeoPostTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -156,12 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GeoPostTests" */;
 			buildPhases = (
-				3738B39C09A4B54698DB2DEA /* [CP] Check Pods Manifest.lock */,
+				D8717A3529022F86D5CC0F2A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				CBC964B90318C404FD9F371A /* [CP] Embed Pods Frameworks */,
-				0ADF12D0D8F2EC57C5E8CBCA /* [CP] Copy Pods Resources */,
+				26E8E3216DB1B3277DF34A68 /* [CP] Embed Pods Frameworks */,
+				F758019FA1C3750380F2FF1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +177,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GeoPost" */;
 			buildPhases = (
-				7FA44D908A435B457E1CE055 /* [CP] Check Pods Manifest.lock */,
+				5CD4A0DAA42ABC22FFA4DC57 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				377CC9050448CE4D2FF45805 /* [CP] Embed Pods Frameworks */,
-				0FD5A58B6B732F7733047CC1 /* [CP] Copy Pods Resources */,
+				5EA2F8DD137CE6A72273DD97 /* [CP] Embed Pods Frameworks */,
+				C8E1547DD0445A67D69083D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,80 +265,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0ADF12D0D8F2EC57C5E8CBCA /* [CP] Copy Pods Resources */ = {
+		26E8E3216DB1B3277DF34A68 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0FD5A58B6B732F7733047CC1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GeoPost/Pods-GeoPost-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GeoPost/Pods-GeoPost-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoPost/Pods-GeoPost-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3738B39C09A4B54698DB2DEA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GeoPost-GeoPostTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		377CC9050448CE4D2FF45805 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GeoPost/Pods-GeoPost-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GeoPost/Pods-GeoPost-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoPost/Pods-GeoPost-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7FA44D908A435B457E1CE055 /* [CP] Check Pods Manifest.lock */ = {
+		5CD4A0DAA42ABC22FFA4DC57 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,21 +304,77 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CBC964B90318C404FD9F371A /* [CP] Embed Pods Frameworks */ = {
+		5EA2F8DD137CE6A72273DD97 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GeoPost/Pods-GeoPost-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GeoPost/Pods-GeoPost-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoPost/Pods-GeoPost-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E1547DD0445A67D69083D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoPost/Pods-GeoPost-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoPost/Pods-GeoPost-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoPost/Pods-GeoPost-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8717A3529022F86D5CC0F2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoPost-GeoPostTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F758019FA1C3750380F2FF1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoPost-GeoPostTests/Pods-GeoPost-GeoPostTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -429,7 +429,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28B90ED894F6B3B6FE850072 /* Pods-GeoPost-GeoPostTests.debug.xcconfig */;
+			baseConfigurationReference = 90E997418B9A7DF44ACABA36 /* Pods-GeoPost-GeoPostTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +456,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53CEC107D7E9B2BEE2DF7FDB /* Pods-GeoPost-GeoPostTests.release.xcconfig */;
+			baseConfigurationReference = 3C7AB2BF0AAEE7CE89D7332F /* Pods-GeoPost-GeoPostTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -480,7 +480,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E118D94976348C311A08AF0D /* Pods-GeoPost.debug.xcconfig */;
+			baseConfigurationReference = 70425BB827A638600B9ED480 /* Pods-GeoPost.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +506,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F71F3527BD3D2B4925162C3 /* Pods-GeoPost.release.xcconfig */;
+			baseConfigurationReference = 4ACCD0CF3EF595CACECA832D /* Pods-GeoPost.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
